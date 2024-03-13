@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion des tâches</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestion des tâches</h1>
+    <form id="addTaskForm">
+        <input type="text" id="taskDescription" placeholder="Description de la tâche" />
+        <input type="datetime-local" id="dueDate" />
+        <button type="submit">Ajouter la tâche</button>
+    </form>
+    <table id="tasksTable">
+        <thead>
+            <tr>
+                <th>Tâche</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
