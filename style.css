@@ -3,11 +3,12 @@ body {
   background-color: #f7f7f7;
   margin: 0;
   padding: 0;
+  background: linear-gradient(90deg in oklab, blue, red);
 }
 
 .container {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 80px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
@@ -30,7 +31,6 @@ input[type="datetime-local"],
 button {
   padding: 10px;
   font-size: 16px;
-  border: none;
   border-radius: 5px;
 }
 
