@@ -65,6 +65,7 @@ td {
 
 th {
   background-color: #f2f2f2;
+  margin-left: 150px;
 }
 
 .deleteTask {
@@ -78,4 +79,17 @@ th {
 
 .deleteTask:hover {
   background-color: #c82333;
+}
+
+.markCompleted {
+  background-color: #1bc715;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.markCompleted:hover {
+  background-color: #16af11;
 }
